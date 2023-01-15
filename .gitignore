@@ -1,0 +1,10 @@
+og/
+dvd/
+
+asm/
+bin/
+
+linker_scripts/drmario64.ld
+linker_scripts/auto/
+
+.splat/
