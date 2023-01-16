@@ -4,7 +4,7 @@ dvd/
 asm/
 bin/
 
-linker_scripts/drmario64.ld
+linker_scripts/SLUS_208.33.ld
 linker_scripts/auto/
 
 .splat/

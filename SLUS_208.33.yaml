@@ -3,7 +3,7 @@ sha1: fb9dca63b1ea725f120405f42af574466522f8c6
 options:
   basename: mmac
   target_path: dvd/SLUS_208.33
-  ld_script_path: linker_scripts/drmario64.ld
+  ld_script_path: linker_scripts/SLUS_208.33.ld
   base_path: .
   compiler: GCC # placeholder
   find_file_boundaries: True # probably no
@@ -43,6 +43,8 @@ segments:
     vram: 0x00100000
     subsegments:
       - [0x001000, asm, main_text/001000]
+      - [0x001100, asm, main_text/001100]
+      - [0x06C480, asm, main_text/06C480]
       - [0x06e480, data, main_data/06e480]
       - [0x07af00, bin, sndata] # sndata
       - [0x08e400, rodata, main_rodata/08e400]
