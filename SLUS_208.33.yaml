@@ -47,7 +47,7 @@ segments:
       - [0x07af00, bin, sndata] # sndata
       - [0x08e400, rodata, main_rodata/08e400]
       - { start: 0x097380, type: bss, vram: 0x00196380, name: main_bss/097380 }
-      - { start: 0x097b30, type: bss, vram: 0x00196380, name: main_sbss/097b30 }
+      # - { start: 0x097b30, type: bss, vram: 0x00196380, name: main_sbss/097b30 } # same vram?
   - [0x097b30, bin] # reginfo
   - [0x097b48, bin]
   - [0x097CFC]
